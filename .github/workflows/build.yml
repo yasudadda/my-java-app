@@ -35,7 +35,7 @@ jobs:
     
     - name: Push Docker image
       run: |
-        docker tag my-java-app:${{ github.sha }} yourusername/my-java-app:${{ github.sha }}
-        docker tag my-java-app:${{ github.sha }} yourusername/my-java-app:latest
-        docker push yourusername/my-java-app:${{ github.sha }}
-        docker push yourusername/my-java-app:latest
+        docker tag my-java-app:${{ github.sha }} yasudadda/my-java-app:${{ github.sha }}
+        docker tag my-java-app:${{ github.sha }} yasudadda/my-java-app:latest
+        docker push yasudadda/my-java-app:${{ github.sha }}
+        docker push yasudadda/my-java-app:latest
