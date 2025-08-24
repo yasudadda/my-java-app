@@ -15,7 +15,7 @@ public class MyJavaAppApplication {
     
     @GetMapping("/")
     public String hello() {
-        return "Hello from Kubernetes GitOps!";
+        return "Hello from Kubernetes GitOps!!";
     }
     
     @GetMapping("/health")
